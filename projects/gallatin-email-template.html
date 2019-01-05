@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang = "en"> 
+<head> 
+	<title> NYU Gallatin Accessible E-mail Templates</title> 
+
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+</head> 
+
+<body> 
+	<div id="header">
+		<div id="headerContainer">
+			<div class = "header-grid-item">
+				<h1 id = "pageTitle">Accessible<br> E-mail Templates </h1>
+				<a href= "../index.html#projectSpace"> Let's go back</a>
+			</div>
+			<div class = "header-grid-item">
+				<!-- empty space -->
+			</div>
+			<div class = "header-grid-item">
+				<!-- empty space -->
+			</div>
+		</div>
+		<div class = "filler"></div>
+		<div class = "filler"></div>
+	</div>
+
+	<section id="projectSection"> 
+		<div id = "projectPlace">
+			<div class = "projectContainer">
+				<h2 class = "sectionLabel">About</h2>
+					<p class="project-info"> As a digital accessibility assistant for NYU Gallatin's Educational Technology team, I was tasked with redesigning accessible e-mail templates for <em>This Week at Gallatin</em> and <em>Gallatin in the News</em> in accordance with WGAC 2.0 Standards and NYU Gallatin's Style Guide.</p> 
+					<p class ="project-info">This was done in ConstantContact.</p>
+
+				<h2 class = "sectionLabel">ReDesign Objectives</h2>
+					<h3 class ="project-info">Accessibility</h3>
+					<p class="project-info"> Snippets of previous e-mails for <em>This Week at Gallatin</em> and <em>Gallatin in the News</em> shown below.</p>
+					<div class="project-grid-item-no-width">
+						<img class="project-img" src = "twag1.png" alt="Previous This Week at Gallatin E-mail"/>
+					</div>
+					<div class="project-grid-item-no-width">
+						<img class="project-img" src = "thenews1.png" alt="Previous Gallatin in the News E-mail"/>
+					</div>
+					<p class="project-info"> After studying the previous templates for these e-mails, I determined these aspects of the WGAC 2.0 Accessibility Standards were relevant to the redesign:</p>
+						<ul class= "pageList">
+							<li class = "pageListItem">Hierarchal headings</li>
+							<li class = "pageListItem">Color Contrast</li>
+							<li class = "pageListItem">Information not represented solely by color</li>
+							<li class = "pageListItem">Unambigious phrasing of links</li>
+						</ul>
+					<p class="project-info"> I also aimed to improve readability, as the content was text-heavy combined with small font.</p>
+					<h3 class ="project-info">Conformity with NYU Identity</h3>
+					<p class="project-info"> In addition to the outlined fonts and colors schemes, the NYU Style Guide also emphasized maintaining a visual identity revolving around modernity, activeness, and intelligence.</p>
+
+				<h2 class = "sectionLabel">ReDesign</h2>
+					<p class="project-info"> For both e-mails, I sifted through previously sent campaigns respectively to determine which headers and content appeared the most to recreate structure.</p>
+					<p class="project-info"> With Gallatin's color sheme (blue, red, grey, dark grey, white, and black), I utilized large, flat color blocks and bold sans-serifed font to emanate sharpness, liveliness, and a sense of pop. I also restricted the usage of red to text, as it is a difficult color to pair correctly for color contrast and large amounts of it combined with the vibrant blue were straining on the eyes.</p>
+					<div class="project-grid-item-no-width">
+						<img class="project-img" width="70%" src = "twag.png" alt="Previous This Week at Gallatin E-mail"/>
+					</div>
+					<div class="project-grid-item-no-width">
+						<img class="project-img" width="70%" src = "thenews.png" alt="Previous Gallatin in the News E-mail"/>
+					</div>
+					<p class="project-info"> I also created headers for each e-mail. These headers were created after the e-mail templates were completed to ensure a unified appearance.</p>
+					<h3 class ="project-info">Redesign: This Week at Gallatin</h3>
+					<p class="project-info"> This Week at Gallatin informs viewers about the weekly events at Gallatin. Presented similarly to a powerpoint, the e-mail has slides representing a day of the week, which display the event image, information, and RSVP or link button.</p>
+					<div class="project-grid-item">
+						<img class="project-img" width="70%"  src = "twag2.png" alt="Previous This Week at Gallatin E-mail"/>
+					</div>
+					<div class="project-grid-item">
+						<img class="project-img-other" width="70%" src = "twag3.png" alt="Previous Gallatin in the News E-mail"/>
+					</div>
+					<p class="project-info"> Following the slide format, I placed the same content in a large rectangle but decreased the image size and increased text size. I implemented these sizes because it'd pressure the person filling in the template to decrease the amount of text to maintain a visual balance between image and text.</p>
+					<p class="project-info">I also had each day of the week delineated by a full-width band of color, in case anyone wanted to place information relevant to that day outside of the slide format. The colors (blue and light grey) of each band and slide alternate by day.</p>
+					<div class = "video-item">
+					<p class="videoTitle">This Week at Gallatin Full E-mail</p>
+					<video id="map1Video" class="video" width="693" height="368">
+						<source src="twagVid.mp4" type="video/mp4">
+					</video>
+					<button class = "vidButton" onclick= "playPause1()"> Play/Pause</button>
+					<script>
+						let myVideo1 = document.getElementById("map1Video");
+
+						function playPause1() {
+							if (myVideo1.paused) {
+								myVideo1.play();
+							} else {
+								myVideo1.pause();
+							}
+						}
+					</script>
+					</div>
+
+					<h3 class ="project-info">Redesign: Gallatin in the News</h3>
+					<p class="project-info"> Gallatin in the News is an update of notable events involving Gallatin students, alumni, and faculty. Involving much more content than This Week at Gallatin, I decided to prioritize simplicity, consistency, and uniformity, as the previous e-mails did not have a consistent format for organizing images or content.</p>
+					<div class="project-grid-item">
+						<img class="project-img" width=70%" src = "thenews2.png" alt="Previous This Week at Gallatin E-mail"/>
+					</div>
+					<div class="project-grid-item">
+						<img class="project-img-other" width="70%" src = "thenews3.png" alt="Previous Gallatin in the News E-mail"/>
+					</div>
+					<p class="project-info"> I placed these visual markers for each aspect of the e-mail:</p>
+						<ul class= "pageList">
+								<li class = "pageListItem">Blue lines to dilineate major categories</li>
+								<li class = "pageListItem">Light Grey boxes to outline images</li>
+								<li class = "pageListItem">Red headings also differentiated by capitalized letters</li>
+						</ul>
+					<p class="project-info"> For the images, I also included three different ways the images could be implemented: alone, paired, or as a set of three.</p>
+					<div class = "video-item">
+					<p class="videoTitle">Gallatin in the News</p>
+					<video id="map2Video" class="video" width="693" height="368">
+						<source src="thenewsVid.mp4" type="video/mp4">
+					</video>
+					<button class = "vidButton" onclick= "playPause2()"> Play/Pause</button>
+					<script>
+						let myVideo2 = document.getElementById("map2Video");
+
+						function playPause2() {
+							if (myVideo2.paused) {
+								myVideo2.play();
+							} else {
+								myVideo2.pause();
+							}
+						}
+					</script>
+					<div class = "filler"></div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<div id="footer">
+		<div id="footerContainer">
+			<div class = "footer-grid-item">
+				<a href= "../index.html#projectSpace"> Let's go back</a>
+				<p aria-label = "footer with sparkle emoji"> &#x2728 Rachel A Lim, 2019</p>
+			</div>
+			<div class = "footer-grid-item">
+				<!-- empty space -->
+			</div>
+			<div class = "footer-grid-item">
+				<!-- empty space -->
+			</div>
+		</div>
+	</div>
+
+</body> 
+</html> 

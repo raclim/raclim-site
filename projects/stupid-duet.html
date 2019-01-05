@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang = "en"> 
+<head> 
+	<title>Stupid Duet</title> 
+
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+</head> 
+
+<body> 
+	<div id="header">
+		<div id="headerContainer">
+			<div class = "header-grid-item">
+				<h1 id = "pageTitle"> Stupid Duet </h1>
+				<a href= "../index.html#projectSpace"> Let's go back</a>
+			</div>
+			<div class = "header-grid-item">
+				<!-- empty space -->
+			</div>
+			<div class = "header-grid-item">
+				<!-- empty space -->
+			</div>
+		</div>
+		<div class = "filler"></div>
+	</div>
+
+	<section id="projectSection"> 
+		<div id = "projectPlace">
+			<div class = "projectContainer">
+				<h2 class = "sectionLabel">About</h2>
+					<p class="project-info"> This silly noise maker was created to produce a more amusing, mischievous, and less practical application of voice technology: a nonsense duet between the user and computer! </p>
+					<p class="project-info"> This project utilizes the p5 and p5 speech libraries. </p>
+					<div class = "filler"></div>
+
+				<h2 class = "sectionLabel">How It Works</h2>
+					<p class="project-info"> The start screen portrays a background with a button in the center prompting the user to start "singing". </p>
+					<img class="project-img" width="55%" src = "stupid1.png" alt="Stupid Noise Maker start page"/>
+					<p class="project-info"> Once the button is pressed, music starts to play and the user is challenged to call the persona stupid. </p>
+					<img class="project-img" src = "stupid2.png" width="800" alt="Stupid Noise Maker voice trigger page"/>
+					<p class="project-info"> The p5 speech library's speech recognition was programmed to listen for the phrase "you are stupid". When the phrase is spoken, a random sound chosen from a list of sounds will appear and loop. The computer will also retort back with its own jibe (ex. "you monkey"), which appears on the screen. The phrase can be repeated over and over to elicit more sounds, leading the user to become a part of the visual and audio cacaphony. The size of the background singers is determined by the volume of the audio. </p>
+					<img class="project-img" src = "stupid3.png" width="800" alt="Stupid Noise Maker voice trigger page"/>
+					<div class = "filler"></div>
+
+				<h2 class = "sectionLabel">Playthrough</h2>
+				<p class="project-info"> A video of a playthrough is shown below. Make sure to have your sound on!</p>
+				<div class = "video-item">
+					<p class="videoTitle">Stupid Duet Playthrough</p>
+					<video id="map1Video" class="video" width="693" height="368">
+						<source src="stupidNoise.mp4" type="video/mp4">
+					</video>
+					<button class = "vidButton" onclick= "playPause1()"> Play/Pause</button>
+					<script>
+						let myVideo1 = document.getElementById("map1Video");
+
+						function playPause1() {
+							if (myVideo1.paused) {
+								myVideo1.play();
+							} else {
+								myVideo1.pause();
+							}
+						}
+					</script>
+				</div>
+				<div class = "project-grid-item">
+					<a href = "stupid-duet-play.html">Play Stupid Duet</a>
+				</div>
+			</div>
+			<div class = "filler"></div>
+			</div>
+			<div class = "filler"></div>
+		</div>
+	</section>
+
+
+	<div id="footer">
+		<div id="footerContainer">
+			<div class = "footer-grid-item">
+				<a href= "../index.html#projectSpace"> Let's go back</a>
+				<p aria-label = "footer with sparkle emoji"> &#x2728 Rachel A Lim, 2019</p>
+			</div>
+			<div class = "footer-grid-item">
+				<!-- empty space -->
+			</div>
+			<div class = "footer-grid-item">
+				<!-- empty space -->
+			</div>
+		</div>
+	</div>
+
+</body> 
+</html> 

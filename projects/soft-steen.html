@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang = "en"> 
+<head> 
+	<title> Soft Steen</title> 
+
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+</head> 
+
+<body> 
+	<div id="header">
+		<div id="headerContainer">
+			<div class = "header-grid-item">
+				<h1 id = "pageTitle"> Soft Steen </h1>
+				<a href= "../index.html#projectSpace"> Let's go back</a>
+			</div>
+			<div class = "header-grid-item">
+				<!-- empty space -->
+			</div>
+			<div class = "header-grid-item">
+				<!-- empty space -->
+			</div>
+		</div>
+		<div class = "filler"></div>
+	</div>
+
+	<section id="projectSection"> 
+		<div id = "projectPlace">
+			<div class = "projectContainer">
+				<h2 class = "sectionLabel">About</h2>
+					<p class="project-info"> For my Introduction to Physical Computing final, I created a soft, interactive reproduction of Jan Steen's painting, "As the Old Sing, So Pipe the Young". Steen visualizes the Dutch proverb (the title), which means bad example leads to bad conduct through the scene of a lively baby's baptism. Rife with symbolism and dynamic movement, this painting's most significant elements are highlighted by three liftable flaps and a squishy dog, which reveal informative text on an adjacent screen.</p>
+					<p class="project-info"> This project utilizes the Arduino and p5 library. </p>
+					<img class="project-img" width="50%" src = "steen.jpg" alt="Final Soft Steen"/>
+
+				<h2 class = "sectionLabel">Process</h2>
+					<h3 class ="project-info">Ideation</h3>
+					<p class="project-info"> Despite being an art history major, I dreaded taking courses examining anytime prior to the 19th century. However, these classes became the most memorable as they enchanted me with rich narratives and dramaticism that rendered me emotional. My desire to share this excitement towards the subject led me to the idea of an interactive physical painting.</p>
+					<p class="project-info"> Objective:<br> To serve as a fun introduction to a subject (specifically 17th century Dutch Baroque paintings) that may seem uninteresting or intimidating.</p>
+					<p class="project-info"> With this in mind, I knew I wanted the final product to be:</p>
+						<ul class= "pageList">
+							<li class = "pageListItem">Soft & Touchable</li>
+								<ul>
+									<li class = "pageListItem"><em>Why?</em><br>A majority of people's encounters with these types of paintings are within a museum. Thus, the interaction with most artworks is confined to observing and reading, which some people feel constrained or distanced by. A soft material would invite touch and remove the distance between the viewer and artwork. </li>
+								</ul>
+							<li class = "pageListItem">Educational</li>
+								<ul>
+									<li class = "pageListItem"><em>Why?</em><br>Initially, I gave myself the choice between the flaps triggering sounds or conjuring informative text. I chose to have informative text displayed on a screen separate from the painting to mimic way paintings are displayed in a museum and have users walk away with knowledge plus the experience!</li>
+								</ul>
+							<li class = "pageListItem">A Loose Representation</li>
+								<ul>
+									<li class = "pageListItem"><em>Why?</em><br>As I wanted my painting to simply be casual and introductory, I decided visually it would be a loose and less detailed interpretation of Steen's.</li>
+								</ul>
+						</ul>
+						<img class="project-img" width="60%" src = "softDraw.png" alt="Final Soft Steen"/>
+
+					<h3 class ="project-info">Components</h3>
+					<img class="project-img" width="50%" src = "softDeconstruct.png" alt="Final Soft Steen"/>
+					<div class="project-grid-item">
+					<p class="project-info"> Physical:</p>
+						<ul class= "pageList">
+							<li class = "pageListItem">1 Wooden Box</li>
+							<li class = "pageListItem">1 Plastic Mesh</li>
+							<li class = "pageListItem">1 iPad</li>
+							<li class = "pageListItem">Velcro Tape</li>
+							<li class = "pageListItem">A LOT of felting wool</li>
+						</ul>
+					</div>
+					<div class="project-grid-item">
+					<p class="project-info"> Electronic:</p>
+						<ul class= "pageList">
+							<li class = "pageListItem">Arduino UNO</li>
+							<li class = "pageListItem">3 Photoresistors</li>
+							<li class = "pageListItem">1 FSR (Force Sensitive Resistor)</li>
+							<li class = "pageListItem">1 Servo Motor</li>
+							<li class = "pageListItem">p5 Library</li>
+						</ul>
+					</div>
+
+				<h3 class = "sectionLabel">Prototype</h3>
+				<img class="project-img" src = "bigSteen.png" alt="Final Soft Steen"/>
+				<p class="project-info"> Video of the interaction shown below.</p>
+				<div class = "video-item">
+					<p class="specialvideoTitle">Soft Steen Interaction Demo</p>
+					<video id="map1Video" class="specialVideo" width="360" height="640">
+						<source src="softDemo.mp4" type="video/mp4">
+					</video>
+					<button class = "vidButton" onclick= "playPause1()"> Play/Pause</button>
+					<script>
+						let myVideo1 = document.getElementById("map1Video");
+
+						function playPause1() {
+							if (myVideo1.paused) {
+								myVideo1.play();
+							} else {
+								myVideo1.pause();
+							}
+						}
+					</script>
+				</div>
+
+				<h2 class ="project-info">User Test</h2>
+					<p class="project-info"> Soft Steen debuted at the <a href="https://itp.nyu.edu/shows/winter2018/soft-steen/">2018 ITP Winter Show</a>, which was a wonderful opportunity to user test with many, many different users and ended up serving as a major learning experience.</p>
+					<p class="project-info"> During the winter show, I noticed and learned: </p>
+						<ul class= "pageList">
+							<li class = "pageListItem">Users attempted to push and poke rather than use the flaps to trigger the interaction.</li>
+								<ul>
+									<li class = "pageListItem"><em>Why?</em><br>I created the flaps to be more discreet to blend into the painting, which some people were unable to see. However, even people who were able to see the flaps appeared to be more tempted to press down, which may be due to the plushness of the material. Due to this inclination, the dog fact (triggered by the FSR) appeared often.</li>
+								</ul>
+							<li class = "pageListItem">The photoresistor was not the  ideal sensor for this project.</li>
+								<ul>
+									<li class = "pageListItem"><em>Why?</em><br>The event triggers were dependent on the photoresistors, which indicated whether they were covered by the flaps or not. However, it quickly became unideal as surrounding visitors and viewers affected the amount of light it was sensing.</li>
+								</ul>
+							<li class = "pageListItem">Users were more inclined to explore and pay attention to the text more when I was not present.</li>
+								<ul>
+									<li class = "pageListItem"><em>Why?</em><br>This point may be specific only to the context of the show context, as most exhibitors stood next to their projects to explain it and interact with guests. When I (somebody who is expected to be informed on the project) was near it, they expected me to explain it rather than read the screen as opposed to when I stood away from it.</li>
+								</ul>
+							<li class = "pageListItem">They were surprised and entertained by the footwarmer fact!</li>
+								<ul>
+									<li class = "pageListItem">Despite some needed work on the interaction design, the educational aspect was successful!</li>
+								</ul>
+						</ul>
+				<h2 class ="project-info">Next Prototype (in progress)</h2>
+					<p class="project-info"> Utilizing what I've learned from the Winter Show, I'm currently in the process of creating Soft Steen's next iteration which will be updated with: </p>
+						<ul class= "pageList">
+							<li class = "pageListItem">Larger scale (possible 18 x 21 inches)</li>
+							<li class = "pageListItem">Pressable areas (no flaps!) The previous areas built with photoresistors will be replaced with FSRs, so everything is pressable!</li>
+							<li class = "pageListItem">Variety of materials to provide more differentiation. The pressable areas will be signified more distinctly by not only color but also a different material.</li>
+						</ul>
+					<div class = "filler"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<div id="footer">
+		<div id="footerContainer">
+			<div class = "footer-grid-item">
+				<a href= "../index.html#projectSpace"> Let's go back</a>
+				<p aria-label = "footer with sparkle emoji"> &#x2728 Rachel A Lim, 2019</p>
+			</div>
+			<div class = "footer-grid-item">
+				<!-- empty space -->
+			</div>
+			<div class = "footer-grid-item">
+				<!-- empty space -->
+			</div>
+		</div>
+	</div>
+
+</body> 
+</html> 

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang = "en"> 
+<head> 
+	<title> Nice to Meet You</title> 
+
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+</head> 
+
+<body> 
+	<div id="header">
+		<div id="headerContainer">
+			<div class = "header-grid-item">
+				<h1 id = "pageTitle"> Nice to Meet You </h1>
+				<a href= "../index.html#projectSpace"> Let's go back</a>
+			</div>
+			<div class = "header-grid-item">
+				<!-- empty space -->
+			</div>
+			<div class = "header-grid-item">
+				<!-- empty space -->
+			</div>
+		<div>
+		<div class = "filler"></div>
+	</div>
+
+	<section id="projectSection"> 
+		<div id = "projectPlace">
+			<div class = "projectContainer">
+				<h2 class = "sectionLabel">About</h2>
+					<p class="project-info"> Created for my class Introduction to Computation Media, this whimsical game was inspired by my desire to elicit emotion towards a computer. The "computer" in Nice to Meet You subconsciously attempts to evoke an emotional connection with the user by conjuring objects or performing mundane actions that people are familiar with, such as trees or doing laundry, and invites the user to explore its space. Although the computer is somewhat territorial and secretive, the computer ultimately has no real agency over its privacy. As computers can only respond to and act on human command, the user is faced with choices that determine whether the digital entity's desires are also respected. </p>
+					<p class="project-info"> This project utilizes the p5 and p5 play libraries. </p>
+					<div class = "filler"></div>
+
+				<h2 class = "sectionLabel">Process</h2>
+					<h3 class ="project-info">Assets</h3>
+					<p class="project-info"> My goal aesthetically was to portray an environment that strongly represented a digital entity. Drawing from text based adventure games, I created a majority of my assets (characters, objects, maps) out of ASCII characters. I also made a conversational interface loosely reminiscent of a terminal to further evoke the impression of a computer.</p>
+					<img class="project-grid-item-no-width" src = "terminal.png" alt="Example of terminal asset"/>
+					<img class="project-grid-item-no-width" src = "exampleAsset.png" alt="Example of ASCII assets"/>
+					<h3 class ="project-info">User Test</h3>
+					<p class="project-info"> My initial demo for a user test portrayed two desktop windows on a background: the larger window was a map filled with a garden of ASCII trees, while the smaller one was a terminal chat box that moved vertically with the user's mouse. Some trees were by movable by click while others could be easily nudged. Being in the vicinity of the animal would also trigger the trees to disappear.</p>
+					<img class="project-img" src = "demoMap.png" width="800" alt="Demo Map"/>
+					<p class="project-info"> During the user test, I noticed: </p>
+						<ul class= "pageList">
+							<li class = "pageListItem">The chat box was ignored.</li>
+								<ul>
+									<li class="pageListItem"><br><em>Why?</em><br>The constant movement of the box made it difficult for users to pay attention to the text on the screen. Thus, people were unequipped with directions and were also unable to grasp the narrative/character they were interacting with.</li>
+								</ul>
+							<li class = "pageListItem">People had difficulty determining what to do.</li>
+								<ul>
+									<li class="pageListItem"><br><em>Why?</em><br>Despite being informed that some trees would not move as easily as others, some people were unable to move the clickable trees and became frustrated. However, they were able to move the nudgable trees very easily. A majority of their time went to figuring out how to move the clickable trees. </li>
+								</ul>
+							<li class = "pageListItem">It was confusing.</li>
+								<ul>
+									<li class="pageListItem"><br><em>Why?</em><br>Overall, there were too many different types of interactions and movements. While attempting to figure about what to do with the trees and the moving chatbox, many people accidentally hovered over the cat and had no idea what happened when the trees disappeared. </li>
+								</ul>
+						</ul>
+					<p class="project-info"> Although this demo was a rough version of only one map, its user test provided me with enough insight and direction to determine how I would move forward with rebuilding and transitioning to other maps. I realized I needed to: </p>
+					<ul class= "pageList">
+						<li class = "pageListItem">Simplify the interface and interactions</li>
+						<li class = "pageListItem">Provide more signifiers for events.</li>
+						<li class = "pageListItem">Let the user garner control of the pace of events while maintaining some adventure</li>
+					</ul>
+					<div class = "filler"></div>
+
+				<h2 class = "sectionLabel">Final</h2>
+				<p class="project-info"> I ended up creating four main maps with one main interaction and one triggerable event. Text buttons would appear when the event is trigger, allowing the user to take time with moving forward and decision making. I took away the "desktop" appearance and had one fullscreen map with a static terminal box on the upper righthand corner. I also had fun adding in splashes of color and twirlies.</p>
+				<p class="project-info"> Videos of the playthrough are shown below.</p>
+				<div class = "video-item">
+					<p class="videoTitle">Map 1 Playthrough</p>
+					<video id="map1Video" class="video" width="693" height="368">
+						<source src="map1.mp4" type="video/mp4">
+					</video>
+					<button class = "vidButton" onclick= "playPause1()"> Play/Pause</button>
+					<script>
+						let myVideo1 = document.getElementById("map1Video");
+
+						function playPause1() {
+							if (myVideo1.paused) {
+								myVideo1.play();
+							} else {
+								myVideo1.pause();
+							}
+						}
+					</script>
+				</div>
+				<div class = "video-item">
+					<p class="videoTitle">Map 2 and 3 Playthrough</p>
+					<video id="map23Video" class="video" width="693" height="368">
+						<source src="map23.mp4" type="video/mp4">
+					</video>
+					<button class = "vidButton" onclick= "playPause2()"> Play/Pause</button>
+					<script>
+						let myVideo2 = document.getElementById("map23Video");
+
+						function playPause2() {
+							if (myVideo2.paused) {
+								myVideo2.play();
+							} else {
+								myVideo2.pause();
+							}
+						}
+					</script>
+				</div>
+				<div class = "video-item">
+					<p class="videoTitle">Map 4 until End Playthrough</p>
+					<video id="mapEndVideo" class="video" width="693" height="368">
+						<source src="mapEnd.mp4" type="video/mp4">
+					</video>
+					<button class = "vidButton" onclick= "playPause3()"> Play/Pause</button>
+					<script>
+						let myVideo3 = document.getElementById("mapEndVideo");
+
+						function playPause3() {
+							if (myVideo3.paused) {
+								myVideo3.play();
+							} else {
+								myVideo3.pause();
+							}
+						}
+					</script>
+				</div>
+				<div class = "project-grid-item">
+					<a href = "Forbidden_cherry_experiment/nice-play.html">Play Nice to Meet You</a>
+				</div>
+			</div>
+			<div class = "filler"></div>
+		</div>
+	</section>
+
+
+	<div id="footer">
+		<div id="footerContainer">
+			<div class = "footer-grid-item">
+				<a href= "../index.html#projectSpace"> Let's go back</a>
+				<p aria-label = "footer with sparkle emoji"> &#x2728 Rachel A Lim, 2019</p>
+			</div>
+			<div class = "footer-grid-item">
+				<!-- empty space -->
+			</div>
+			<div class = "footer-grid-item">
+				<!-- empty space -->
+			</div>
+		</div>
+	</div>
+
+</body> 
+</html> 

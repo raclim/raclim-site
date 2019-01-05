@@ -1,0 +1,225 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"padding",
+				"padding-left"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/rachellim/public_html_copy/index.html",
+		"/Users/rachellim/public_html_copy/assignment3/assignment3.html",
+		"/Users/rachellim/public_html_copy/assignment5/sql_selection.html",
+		"/Users/rachellim/public_html_copy/assignment8/assignment8.html",
+		"/Users/rachellim/public_html_copy/assignment8/test.html",
+		"/Users/rachellim/public_html_copy/assignment8/test.css",
+		"/Users/rachellim/Downloads/p5.js-speech/lib/p5.speech.js",
+		"/Users/rachellim/public_html_copy/assignment8/assignment8.css",
+		"/Users/rachellim/public_html_copy/css/layout.css",
+		"/Users/rachellim/public_html_copy/assignment5/css/python_cgi.css",
+		"/Users/rachellim/public_html 5/backup.sql",
+		"/Users/rachellim/public_html_copy/assignment8/assignment8.py",
+		"/Users/rachellim/public_html_copy/assignment5/css/style.css",
+		"/Users/rachellim/public_html_copy/assignment5/assignment5.html",
+		"/Users/rachellim/PycharmProjects/assignment2/assign2.py",
+		"/Users/rachellim/public_html_copy/assignment2/assignment2.html",
+		"/Users/rachellim/public_html_copy/assignment1/assignment1.html",
+		"/Users/rachellim/Desktop/testt",
+		"/Users/rachellim/public_html_copy/assignment1/css/style.css",
+		"/Users/rachellim/public_html_copy/assignment2/css/style.css",
+		"/Users/rachellim/public_html_copy/assignment3/css/style.css",
+		"/Users/rachellim/public_html 4/index.html",
+		"/Users/rachellim/public_html/index.html",
+		"/Users/rachellim/Desktop/public_html 3/index.html",
+		"/Users/rachellim/public_html/interestSite/slimestuff.html",
+		"/Users/rachellim/public_html/interestSite/doodles.html",
+		"/Users/rachellim/public_html/interestSite/index.html",
+		"/Users/rachellim/public_html/interestSite/css/wireframing.css",
+		"/Users/rachellim/public_html/interestSite/js/custom.js",
+		"/Users/rachellim/public_html/interestSite/secret.html",
+		"/Users/rachellim/public_html/interestSite/places.html",
+		"/Users/rachellim/public_html/causeSite/css/starter-template.css",
+		"/Users/rachellim/public_html/causeSite/index.html",
+		"/Users/rachellim/public_html/interestSite/css/desktop.css",
+		"/Users/rachellim/public_html/causeSite/extra.html",
+		"/Users/rachellim/public_html/causeSite/about.html",
+		"/Users/rachellim/public_html/causeSite/css/mobile-template.css",
+		"/Users/rachellim/public_html/causeSite/js/bootstrap.min.js",
+		"/Users/rachellim/public_html/interestSite/css/mobile.css",
+		"/Users/rachellim/public_html/interestSite/css/tablet.css",
+		"/Users/rachellim/public_html/css/layout.css",
+		"/Users/rachellim/Downloads/Responsive_20161101/css/mobile.css",
+		"/Users/rachellim/public_html/personalSite/index.html",
+		"/Users/rachellim/public_html/personalSite/bio.html",
+		"/Users/rachellim/Downloads/Responsive_20161101/css/tablet.css",
+		"/Users/rachellim/Downloads/Responsive_20161101/css/desktop.css",
+		"/Users/rachellim/public_html/personalSite/css/style.css",
+		"/Users/rachellim/public_html/personalSite/wireframe.html",
+		"/Users/rachellim/public_html/personalSite/assignment.html",
+		"/Users/rachellim/public_html/personalSite/assignment5.html",
+		"/Users/rachellim/public_html/personalSite/contact.html",
+		"/Users/rachellim/public_html/personalSite/cv.html",
+		"/Users/rachellim/Desktop/htmlcheatsheet.html"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 264.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
