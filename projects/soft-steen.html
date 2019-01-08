@@ -77,14 +77,16 @@
 						</ul>
 					</div>
 				
+				<h3 class = "sectionLabel">Prototype Appearance</h3>
+				<img class="project-img" width="80%" src = "softProto.png" alt="Final Soft Steen prototype"/>
+				<p class="project-info"> Soft Steen with iPad on right. The iPad screen displays a default landing page giving context to the painting and Jan Steen.</p>
+				</div>
+			
 				<h3 class ="project-info">Interaction Walkthrough</h3>
 				<img class="project-img" width="60%" src = "softDraw.png" alt="Prototype Sketch with painting and iPad informative"/>
-				<p class="project-info"> The soft painting contains three flaps with triangular bits of velcro at the ends that represent the dog, pipe, and footwarmer. Underneath the flaps are photoresistors which detect whether it is exposed to light or not. When it is covered, the photoresistor sends serially to p5 to trigger the relevant informative text on the iPad screen. When all 3 flaps are covered, the servo motor is triggered and the iPad screen reveals a congratulatory message. The dog, which has a raised surface, has a force sensitive resistor underneath that is also triggers an informative when pressed down on.</p>
+				<p class="project-info"> The soft painting contains three flaps with triangular bits of velcro at the ends that represent the dog, pipe, and footwarmer. Underneath the flaps are photoresistors which detect whether it is exposed to light or not. When it is covered, the photoresistor sends serially to p5 to trigger the relevant informative text on the iPad screen. When all 3 flaps are covered, the woman's arm (servo motor) is triggered to lift for more wine and the iPad screen reveals a congratulatory message. The dog, which has a raised surface, has a force sensitive resistor underneath that is also triggers an informative when pressed down on.</p>
 				<p class="project-info"> The dog was given with a different sensor/interaction because I noticed my classmates always had a strong inclination to squeeze and press down on the needlefelted objects I'd bring in. Wanting to test both types interactions, I incorporated the pressing one to the dog because its significance was more relevant to Dutch art in general, rather than to the painting specifically.</p>
-				
-				<h3 class = "sectionLabel">Prototype</h3>
-				<img class="project-img" width="50%" src = "softProto.png" alt="Final Soft Steen prototype"/>
-				<p class="project-info"> Video of the interaction shown below.</p>
+				<p class="project-info"> Video demonstrating interaction shown below. (Does not show final interaction with iPad.)</p>
 				<div class = "video-item">
 					<p class="specialvideoTitle">Soft Steen Interaction Demo</p>
 					<video id="map1Video" class="specialVideo" width="360" height="640">
@@ -102,7 +104,7 @@
 							}
 						}
 					</script>
-				</div>
+				
 
 				<h2 class ="project-info">User Test</h2>
 					<p class="project-info"> Soft Steen debuted at the <a href="https://itp.nyu.edu/shows/winter2018/soft-steen/">2018 ITP Winter Show</a>, which was a wonderful opportunity to user test with many, many different users and ended up serving as a major learning experience.</p>
@@ -114,7 +116,11 @@
 								</ul>
 							<li class = "pageListItem">The photoresistor was not the  ideal sensor for this project.</li>
 								<ul>
-									<li class = "pageListItem"><em>Why?</em><br>The event triggers were dependent on the photoresistors, which indicated whether they were covered by the flaps or not. However, it quickly became unideal as surrounding visitors and viewers affected the amount of light it was sensing.</li>
+									<li class = "pageListItem"><em>Why?</em><br>The event triggers were dependent on the photoresistors, which indicated whether they were covered by the flaps or not. However, it quickly became unideal as surrounding visitors and viewers affected the amount of light it was sensing, which also made it difficult to reach the congratulatory message</li>
+								</ul>
+							<li class = "pageListItem">Being explicit does not take away from exploration.</li>
+								<ul>
+									<li class = "pageListItem"><em>Why?</em><br> Initially, my goal was to compel the user to approach the painting implicitly through the soft texture and setup rather than explicitly through signage to provide more of an exploratory aspect. However, I also reflected back on museums that simply had signage stating that visitors were allowed to interact with the pieces and decided to test an hour with the touch sign and an hour without. Despite some people being misled to touch the sign itself, the users who interacted with the piece when the sign was posted were actually able to become engaged more quickly than the users without, who spent more time reading the iPad text to fish for hints on the interaction. Although this point is reiterated often and is obvious to some, I experienced it firsthand when I witnessed the difference in user reaction.</li>
 								</ul>
 							<li class = "pageListItem">Users were more inclined to explore and pay attention to the text more when I was not present.</li>
 								<ul>
@@ -129,7 +135,7 @@
 					<p class="project-info"> Utilizing what I've learned from the Winter Show, I'm currently in the process of creating Soft Steen's next iteration which will be updated with: </p>
 						<ul class= "pageList">
 							<li class = "pageListItem">Larger scale (possible 18 x 21 inches)</li>
-							<li class = "pageListItem">Pressable areas (no flaps!) The previous areas built with photoresistors will be replaced with FSRs, so everything is pressable!</li>
+							<li class = "pageListItem">Pressable areas (no flaps!) The previous areas built with photoresistors will be replaced with FSRs, so everything is pressable! There will still be a servo motor </li>
 							<li class = "pageListItem">Variety of materials to provide more differentiation. The pressable areas will be signified more distinctly by not only color but also a different material.</li>
 						</ul>
 					<div class = "filler"></div>
