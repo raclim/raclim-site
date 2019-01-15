@@ -162,6 +162,11 @@ a:hover, a:focus {
 	cursor:pointer;
 }
 
+a:focus {
+	outline: 3px dashed #3dbbdb !important;
+    	outline-offset: 3px !important;
+}
+
 p {
 	font-size:18px;
 	line-height:1.8;
