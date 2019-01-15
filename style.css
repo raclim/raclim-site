@@ -260,4 +260,42 @@ p {
 
 
 
+@media screen and (max-width:869px) {
+	#links {
+		color: orange;
+		text-align: left;
+	}
+}
+
+
+@media screen and (max-width: 560px) {
+
+	.portfolio-grid-item,
+	.header-grid-item,
+	.footer-grid-item {
+		min-width: 0px;
+		width: 44.25%;
+	}
+
+	.grid-caption {
+		margin-bottom: 24px; 
+	}
+
+	#footer {
+		margin-top: 0px;
+		margin-bottom: 24px;
+	}
+
+	.project-info {
+		width: 90%;
+		margin: 10% auto;
+	}
+
+
+	iframe {
+		height: 300px;
+	}
+}
+
+
 
