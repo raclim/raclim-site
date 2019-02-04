@@ -188,7 +188,7 @@ p {
 }
 
 .about-content-item {
-	border: 1.5px solid #D8F2FF;
+	border: 1.5px dotted #D8F2FF;
 	border-radius: 19px;
 	background-color: #D8F2FF; background-image: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#FDDFEB));
 	background-image: -webkit-linear-gradient(top, #FFFFFF, #FDDFEB);
