@@ -186,6 +186,11 @@ p {
 .headerContainer, .footerContainer, .about-content-item, .container, .projectContainer, .visualContainer, .project-heading-item, .visual-heading-item, .headerThing {
 	position: relative;
 }
+
+.about-content-item {
+	background-color: #FDDFEB;
+	width:50%;
+}
 .gridContainer {
 	text-align:center;
 }
