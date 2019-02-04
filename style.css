@@ -58,11 +58,11 @@ li {
 .visual-grid-item, .footer-grid-item {
 	display:inline-block;
 	margin-top: 50px;
-	margin-left: 2.3%;
+	margin-left: 1.5%;
 	margin-right: 1.5%;
-	width:29%;
+	width:25%;
 	vertical-align: top;
-	min-width: 249px;
+	min-width: 200px;
 	text-align: left;
 	padding: 0px;
 }
@@ -186,7 +186,9 @@ p {
 .headerContainer, .footerContainer, .about-content-item, .container, .projectContainer, .visualContainer, .project-heading-item, .visual-heading-item, .headerThing {
 	position: relative;
 }
-
+.gridContainer {
+	text-align:center;
+}
 .caption {
 	margin-top: 5px;
 }
