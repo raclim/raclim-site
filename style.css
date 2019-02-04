@@ -174,8 +174,6 @@ p {
 
 .about-info {
 	text-align:center;
-	margin-left: 25%;
-	margin-right:25%;
 }
 
 .info {
@@ -188,7 +186,12 @@ p {
 }
 
 .about-content-item {
-	border: 2px #FDDFEB;
+	background-color: #D8F2FF; background-image: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#FDDFEB));
+	background-image: -webkit-linear-gradient(top, #FFFFFF, #FDDFEB);
+	background-image: -moz-linear-gradient(top, #FFFFFF, #FDDFEB);
+	background-image: -ms-linear-gradient(top, #FFFFFF, #FDDFEB);
+	background-image: -o-linear-gradient(top, #FFFFFF, #FDDFEB);
+	background-image: linear-gradient(to bottom, #FFFFFF, #FDDFEB);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#FFFFFF, endColorstr=#FDDFEB);
 	width:50%;
 	margin-left: 25%;
 	margin-right:25%;
