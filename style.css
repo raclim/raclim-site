@@ -297,23 +297,26 @@ p {
 
 
 
-@media screen and (max-width:869px) {
+@media screen and (min-width:1286px) {
 	#links {
 		color: orange;
 		text-align: left;
 	}
+	.headerContainer, .footerContainer, .about-content-item, .container, .projectContainer, .visualContainer, .project-heading-item, .visual-heading-item, .headerThing {
+		width: auto;
+	}
 }
 
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 768px) {
 
-	.portfolio-grid-item,
-	.header-grid-item,
-	.footer-grid-item {
-		min-width: 0px;
-		width: 44.25%;
+	.headerContainer, .footerContainer, .about-content-item, .container, .projectContainer, .visualContainer, .project-heading-item, .visual-heading-item, .headerThing {
+		width: auto;
 	}
 
+	.nav-links {
+		width:100%;
+	}
 	.grid-caption {
 		margin-bottom: 24px; 
 	}
