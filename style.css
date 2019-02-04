@@ -111,7 +111,7 @@ li {
 .nav-links { 
 	position: absolute;
 	right: 25px;
-	top: 30px;
+	top: 50px;
 	z-index: 9000 !important;
 }
 .nav-links ul {
@@ -173,7 +173,7 @@ p {
 }
 
 .about-info {
-	text-align:left;
+	text-align:center;
 	margin-left: 20%;
 	margin-right:25%;
 }
