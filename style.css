@@ -40,7 +40,7 @@ li {
 }
 .sectionLabel {
 	margin: 56px auto 56px auto;
-	width: 80%;
+	width: 70%;
 }
 
 #header {
@@ -48,7 +48,7 @@ li {
 }
 
 #pageTitle {
-	margin: 56px auto 25px auto;
+	margin-left:100px;
 }
 
 .headerThing {
