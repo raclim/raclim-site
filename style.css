@@ -231,14 +231,29 @@ p {
 .vidButton {
 	margin: 20px auto 20px 45%;
 	text-align:center;
-	background-color: white;
 	font-family:'Inconsolata';
 	font-size: 20px;
-	padding:6px;
-	border-radius: 15px;
-	border:1px solid black;
+	padding:6px 6px 6px 6px;
+	border-radius: 19px;
+	border:1px solid #32383B;
 	cursor:pointer;
 	transition-duration: 0.4s;
+	background-color: #D8F2FF; background-image: -webkit-gradient(linear, left top, left bottom, from(#D8F2FF), to(#FDDFEB));
+	background-image: -webkit-linear-gradient(top, #D8F2FF, #FDDFEB);
+	background-image: -moz-linear-gradient(top, #D8F2FF, #FDDFEB);
+	background-image: -ms-linear-gradient(top, #D8F2FF, #FDDFEB);
+	background-image: -o-linear-gradient(top, #D8F2FF, #FDDFEB);
+	background-image: linear-gradient(to bottom, #D8F2FF, #FDDFEB);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#D8F2FF, endColorstr=#FDDFEB);
+	
+}
+
+.button_example{
+ background-color: #D8F2FF; background-image: -webkit-gradient(linear, left top, left bottom, from(#D8F2FF), to(#FDDFEB));
+ background-image: -webkit-linear-gradient(top, #D8F2FF, #FDDFEB);
+ background-image: -moz-linear-gradient(top, #D8F2FF, #FDDFEB);
+ background-image: -ms-linear-gradient(top, #D8F2FF, #FDDFEB);
+ background-image: -o-linear-gradient(top, #D8F2FF, #FDDFEB);
+ background-image: linear-gradient(to bottom, #D8F2FF, #FDDFEB);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#D8F2FF, endColorstr=#FDDFEB);
 }
 
 .homeButton {
