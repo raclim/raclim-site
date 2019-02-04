@@ -20,7 +20,7 @@ li {
 
 .pageList {
 	list-style-type: disc; 
-	width: 75%;
+	width: 65%;
 }
 
 .pageListItem {
@@ -222,7 +222,7 @@ p {
 .project-info {
 	text-align: left;
 	margin: 56px auto 56px auto;
-	width:50%;
+	width:65%;
 }
 
 .videoTitle {
