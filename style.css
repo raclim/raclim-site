@@ -188,8 +188,10 @@ p {
 }
 
 .about-content-item {
-	background-color: #FDDFEB;
+	border: 2px #FDDFEB;
 	width:50%;
+	margin-left: 25%;
+	margin-right:25%;
 }
 .gridContainer {
 	text-align:center;
