@@ -195,6 +195,10 @@ p {
 	height: 100px;
 }
 
+.avg-filler {
+	height: 50px;
+}
+
 .mini-filler {
 	height: 5px;
 }
