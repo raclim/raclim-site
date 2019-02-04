@@ -183,7 +183,7 @@ p {
 	margin-left: 30px;
 }
 
-.headerContainer, .footerContainer, .about-content-item, .container, .projectContainer, .visualContainer, .project-heading-item, .visual-heading-item {
+.headerContainer, .footerContainer, .about-content-item, .container, .projectContainer, .visualContainer, .project-heading-item, .visual-heading-item, .headerThing {
 	position: relative;
 }
 
@@ -312,7 +312,7 @@ p {
 		margin: 10% auto;
 	}
 
-	iframe {
+	.headerThing {
 		width: 400px;
 	}
 }
