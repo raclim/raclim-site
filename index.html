@@ -24,13 +24,13 @@
 <body> 
 	<div id="header">
 		<div class = "header-grid-item">
-			<h1 id = "name" onmouseover=""> Rachel A Lim </h1>
+			<h1 id = "name"> Rachel A Lim </h1>
 		</div>
 		<div class = "header-grid-item">
 			<!-- empty space -->
 		</div>
 		<div class = "header-grid-item">
-			<nav id="navbar" class="nav-links" aria-labelledby="menu">
+			<nav id="navbar" class="sticky nav-links" aria-labelledby="menu">
 				<ul class="headingList">
 					<li><a href="#projectSpace" id="project"><span>Project</span></a></li>
 					<li><a href="#visualSpace" id="visual"><span>Visual</span></a></li>
@@ -40,7 +40,7 @@
 		</div>
 		<div class = "avg-filler"></div>
 		<div class = "header-grid-item">
-			<iframe class="headerThing" style="width:1000px; height:220px; border:none;" src="https://editor.p5js.org/raclim/embed/S1Cs1q_bE"></iframe>
+			<iframe class="headerThing" src="https://editor.p5js.org/raclim/embed/S1Cs1q_bE"></iframe>
 		</div>
 		<div class = "about-content-item">
 			<p class = "about-info"> <span style="font-weight:bold">Hi! I'm Rachel!</span> I'm dedicated to thoughtful experimentation and playful content. I believe accessible, meaningful solutions can be cultivated through empathy and conscientious investigation. </p>
@@ -53,7 +53,7 @@
 		<button class = "vidButton" onclick= "ding()"> See Stuff</button>
 		<script>
 			function ding() {
-				document.querySelector('#projectPlace').scrollIntoView({ behavior: 'smooth'});
+				document.querySelector('#projectSection').scrollIntoView({ behavior: 'smooth'});
 			}
 		</script>
 	</div>
