@@ -5,8 +5,11 @@
 
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://unpkg.com/scrollreveal"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
 	<link href="favicon.png" rel="icon" type="image/x-icon" />
+	<script type="text/javascript" src="test.js"></script>
 	
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131935602-1"></script>
@@ -21,7 +24,7 @@
 
 </head> 
 
-<body> 
+<body class="hidden"> 
 	<div id="header">
 		<div class = "header-grid-item">
 			<h1 id = "name"> Rachel A Lim </h1>
@@ -63,7 +66,7 @@
 	<a id="projectSpace"></a>
 	<section id="projectSection"> 
 		<div id = "projectPlace">
-			<div class = "projectContainer">
+			<div class = "scroll-reveal projectContainer">
 				<div class = "project-heading-item">
 					<div class = "mini-filler"></div>
 					<h2 class = "mainSectionLabel">Projects</h2>
@@ -116,7 +119,7 @@
 	<a id="visualSpace"></a>
 	<section id="visualSection">  
 		<div id = "visualPlace">
-			<div class = "visualContainer">
+			<div class = "scroll-reveal visualContainer">
 				<div class = "visual-heading-item"> 
 					<div class = "mini-filler"></div>
 					<h2 class = "mainSectionLabel">Visual</h2>
@@ -201,6 +204,6 @@
 			</div>
 		</div>
 	</div>
-
+<script>ScrollReveal().reveal('.scroll-reveal',{ duration: 800, scale:.96 });</script>
 </body> 
 </html> 
