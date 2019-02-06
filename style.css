@@ -5,7 +5,7 @@ html {
 }
 
 body{
-	font-family:'Inconsolata';
+	font-family:'Lato';
 	padding: 16px;
 }
 
@@ -39,7 +39,6 @@ li {
 	top: 20px;
 	left: 50px;
 }
-
 
 .sticky {
 	position: fixed;
@@ -134,6 +133,10 @@ li {
 	overflow: hidden;
 	background-color: #FFFFFF;
 }
+
+#project, #visual, #blog {
+	border-bottom: 0px;
+}
 .nav-links { 
 	/*position: absolute;*/
 	right: 25px;
@@ -146,6 +149,7 @@ li {
 }
 .nav-links li { 
 	display:inline-block;
+	font-family: 'Concert One', cursive;
 }
 
 .nav-links.active a {
@@ -157,7 +161,7 @@ li {
 }
 
 h1,h2,h3,h4,h5, .text {
-	font-family:'Inconsolata';
+	font-family: 'Concert One', cursive;
 }
 
 h1 {
@@ -179,18 +183,24 @@ h4 {
 a {
 	text-decoration: none;
 	font-size:18px;
-	border-bottom: 0.8px solid;
+	border-bottom: 0.8px solid #f7c456;
 }
 
-a:hover, a:focus {
+/*a:hover, a:focus {
 	color:#000;
 	background:#ffdddd;
 	cursor:pointer;
+}*/
+
+a:hover, a:focus {
+	outline: 3px dashed #72d0ff !important;
+    outline-offset: 3px !important;
+	cursor:pointer;
+	color:#000;
 }
 
 a:focus {
-	outline: 3px dashed #72d0ff !important;
-    	outline-offset: 3px !important;
+	background:#ffdddd;
 }
 
 p {
@@ -199,7 +209,7 @@ p {
 }
 
 .about-info {
-	text-align:center;
+	text-align:left;
 	margin-left:5%;
 	margin-right:5%;
 }
@@ -215,6 +225,8 @@ p {
 
 .about-content-item {
 	border: 0.1px solid #4e5559;
+	font-family: 'Inconsolata';
+	font-size: 20px;
 	border-radius: 19px;
 	background-color: #FFFFFF; background-image: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#FDDFEB));
 	background-image: -webkit-linear-gradient(top, #FDDFEB, #fff9d8);
@@ -233,7 +245,13 @@ p {
 	text-align:center;
 }
 .caption {
+	font-family: 'Inconsolata';
 	margin-top: 5px;
+}
+
+.caption-text{
+	font-family: 'Lato';
+	font-size: 16px;
 }
 
 .filler {
@@ -276,7 +294,7 @@ p {
 .vidButton {
 	margin: 20px auto 20px 45%;
 	text-align:center;
-	font-family:'Inconsolata';
+	font-family: 'Concert One', cursive;
 	font-size: 20px;
 	padding:10px 10px 10px 10px;
 	border-radius: 19px;
@@ -383,6 +401,10 @@ p {
 		width: 300px;
 	}
 
+	.footerFont {
+		font-family: 'Concert One', cursive;
+	}
+
 	.visual-grid-item, .footer-grid-item {
 	display:inline-block;
 	margin-top: 50px;
@@ -395,4 +417,3 @@ p {
 	padding: 0px;
 }
 }
-
