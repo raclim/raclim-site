@@ -8,6 +8,7 @@
 	<script src="https://unpkg.com/scrollreveal"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Concert+One|Lato" rel="stylesheet">
 	<link href="favicon.png" rel="icon" type="image/x-icon" />
 	<script type="text/javascript" src="test.js"></script>
 	
@@ -56,12 +57,13 @@
 		<button class = "vidButton" onclick= "ding()"> See Stuff</button>
 		<script>
 			function ding() {
-				document.querySelector('#projectSection').scrollIntoView({ behavior: 'smooth'});
+				document.querySelector('#projectSection').scrollIntoView({ behavior: 'smooth', block:'center', inline:'nearest'});
 			}
 		</script>
+		<div class = "filler"></div>
+		<div class = "filler"></div>
 	</div>
-	<div class = "filler"></div>
-	<div class = "filler"></div>
+
 
 	<a id="projectSpace"></a>
 	<section id="projectSection"> 
@@ -76,35 +78,35 @@
 					<img src = "projects/steenThumb.png" alt="Soft Steen"/>
 					<div class = "caption">
 						<a href = "projects/soft-steen.html"> Soft Steen</a>
-						<p>A soft interactive painting. </p>
+						<p class="caption-text">A soft interactive painting. </p>
 					</div> 
 				</div>
 				<div class = "visual-grid-item">
 					<img src = "projects/stupidThumb.png" alt="Stupid Noise Maker thumbnail"/>
 					<div class = "caption">
 						<a href = "projects/stupid-duet.html"> Stupid Duet</a>
-						<p>Silly. </p>
+						<p class="caption-text">Silly. </p>
 					</div>
 				</div>
 				<div class = "visual-grid-item">
 					<img src = "projects/niceThumb.png" alt="Nice to meet you game thumbnail"/>
 					<div class = "caption">
 						<a href = "projects/nice-to-meet-you.html"> Nice to Meet You</a>
-						<p>Contemplative game. </p>
+						<p class="caption-text">Contemplative game. </p>
 					</div>
 				</div>
 				<div class = "visual-grid-item">
 					<img src = "projects/arThumb.png" alt="AR Card thumbnail"/>
 					<div class = "caption">
 						<a href = "projects/ar-pop-up-cards.html"> AR Pop Up Cards</a>
-						<p>Cards that digitally pop up. </p>
+						<p class="caption-text">Cards that digitally pop up. </p>
 					</div>
 				</div>
 				<div class = "visual-grid-item">
 					<img src = "projects/gallatinThumb.png" alt="Accessible Gallatin E-mail thumbnail"/>
 					<div class = "caption">
 						<a href = "projects/gallatin-email-template.html"> NYU Gallatin: Accessible<br>E-mail Templates</a>
-						<p>Created with Gallatin EdTech.</p>
+						<p class="caption-text">Created with Gallatin EdTech.</p>
 					</div>
 				</div>
 				<div class = "visual-grid-item">
@@ -135,21 +137,27 @@
 					<img src = "visual/girlThumb.png" alt="Love Book thumbnail"/>
 					<div class = "caption">
 						<a href = "visual/love-book.html"> Love Book</a>
-						<p>A girl and her dog. </p>
+						<p class="caption-text">A girl and her dog. </p>
 					</div>
 				</div>
 				<div class = "visual-grid-item">
+					<img src = "visual/itpThumb.png" alt="Postcard Thumbnail"/>
+					<div class = "caption">
+						<a href = "visual/itp-postcard.html"> ITP Winter Show 2018 Postcard</a>
+					</div>
+				</div>
+				<!-- <div class = "visual-grid-item">
 					<img src = "visual/ratThumb.jpg" alt="Rat Race thumbnail"/>
 					<div class = "caption">
 						<a href = "visual/rat-race.html"> Rat Race</a>
-						<p>Animation. </p>
+						<p class="caption-text">Animation. </p>
 					</div>
-				</div>
+				</div> -->
 				<div class = "visual-grid-item">
 					<img src = "visual/p5Thumb.png" alt="Night sky sketch created in p5"/>
 					<div class = "caption">
 						<a href = "visual/p5-doodles.html"> p5 Doodles</a>
-						<p>*Contains flashing content*</p>
+						<p class="caption-text">*Contains flashing content*</p>
 					</div>
 				</div>
 				<!-- <div class = "visual-grid-item">
@@ -159,23 +167,15 @@
 					</div>
 				</div> -->
 				<div class = "visual-grid-item">
-					<img src = "visual/itpThumb.png" alt="Postcard Thumbnail"/>
+					<img src = "visual/hardThumb.jpg" alt="Animations thumbnail"/>
 					<div class = "caption">
-						<a href = "visual/itp-postcard.html"> ITP Winter Show 2018 Postcard</a>
+						<a href = "visual/animations.html"> Animations</a>
 					</div>
 				</div>
 				<div class = "visual-grid-item">
-					<img src = "visual/hardThumb.jpg" alt="Hard Boiled thumbnail"/>
+					<img src = "visual/poemThumb.jpg" alt="miscellaneous thumbnail"/>
 					<div class = "caption">
-						<a href = "visual/hard-boiled.html"> Hard Boiled</a>
-						<p>Animation. </p>
-					</div>
-				</div>
-				<div class = "visual-grid-item">
-					<img src = "visual/drawThumb.jpg" alt="Studio drawing thumbnail"/>
-					<div class = "caption">
-						<a href = "visual/studio-drawings.html"> Studio Drawings</a>
-						<p>Miscellaneous. </p>
+						<a href = "visual/miscellaneous.html"> Miscellaneous</a>
 					</div>
 				</div>
 				<div class = "visual-grid-item">
@@ -194,7 +194,7 @@
 	<div id="footer">
 		<div id="footerContainer">
 			<div class = "footer-grid-item">
-				<p aria-label = "footer with sparkle emoji"> &#x2728 Rachel A Lim, 2019</p>
+				<p class ="footerFont" aria-label = "footer with sparkle emoji"> &#x2728 Rachel A Lim, 2019</p>
 			</div>
 			<div class = "footer-grid-item">
 				<!-- empty space -->
