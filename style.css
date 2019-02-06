@@ -201,7 +201,7 @@ h4 {
 a {
 	text-decoration: none;
 	font-size:18px;
-	border-bottom: 0.8px solid #f7c456;
+	border-bottom: 0.8px solid #72d0ff;
 }
 
 /*a:hover, a:focus {
@@ -218,7 +218,8 @@ a:hover, a:focus {
 }
 
 a:focus {
-	background:#ffdddd;
+	color:white;
+	background:#72d0ff;
 }
 
 p {
