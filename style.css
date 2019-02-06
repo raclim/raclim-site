@@ -317,7 +317,7 @@ p {
 	font-size: 20px;
 	padding:10px 10px 10px 10px;
 	border-radius: 19px;
-	border:1px solid #32383B;
+	border:0px solid #32383B;
 	cursor:pointer;
 	background-color: #D8F2FF; background-image: -webkit-gradient(linear, left top, left bottom, from(#D8F2FF), to(#FDDFEB));
 	background-image: -webkit-linear-gradient(top, #D8F2FF, #FDDFEB);
@@ -342,7 +342,7 @@ p {
 }
 
 .vidButton:hover, .vidButton:focus {
-	border:1px solid #72d0ff;
+	border:1px dashed #72d0ff;
 	font-weight:bolder;
 	transition-duration: 0.4s;
 	background-color: #FDDFEB; background-image: -webkit-gradient(linear, left top, left bottom, from(#FDDFEB), to(#FDDFEB));
